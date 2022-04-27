@@ -26,6 +26,16 @@
   - 적은 코드
   - 강력한 반응형 개발
 
+
+
+> Framework VS Library
+> **제어권의 역전**
+>
+> - Framework: 제어권이 프레임워크에
+> - Library: 제어권이 개발자에게
+
+
+
 # Vue.js
 
 - Progressive JavaScript Framework
