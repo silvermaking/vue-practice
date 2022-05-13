@@ -1,3 +1,10 @@
+# 0. 사전준비
+
+- Vscode extension
+  - vetur 설치
+- chrome
+  - vue.js devtools 설치
+
 # 01. Vue.js : Basic
 
 # 1. Intro
@@ -155,9 +162,7 @@
 
 - 애플리케이션 로직을 UI로부터 분리하기 위해 설계된 디자인 패턴
 
-![MVVM_pattern](md-images/MVVM_pattern.png)
-
-### Model
+### ![MVVM_pattern](https://user-images.githubusercontent.com/68841702/168137888-906f47e3-d09b-41db-be34-09f74455f8ee.png)Model
 
 - "Vue에서 Model은 JS Object다."
 - JS의 Object 자료 구조 { key: value }
@@ -171,10 +176,19 @@
 ### ViewModel
 
 - "Vue에서 ViewModel은 모든 Vue Instance이다."
+  
   - 파이썬의 클래스 인스턴스 생성하는 것처럼
+  
+  - ```javascript
+    const app = new vue({
+    	
+    })
+    ```
+  
+  - 
 - View와 Model 사이에서 Data와 DOM에 관련된 모든 일을 처리
 - ViewModel을 활용해 Data를 얼마만큼 잘 처리해서 보여줄 것인지(DOM에서)를 고민하는 것
-- controller 와 비슷한 역할
+- MVC 패턴의 controller 와 비슷한 역할
 
 ---
 
