@@ -115,3 +115,27 @@ const app = new Vue({
   - [참고](https://velog.io/@raram2/%EB%8B%B9%EC%8B%A0%EC%9D%B4-innerHTML%EC%9D%84-%EC%93%B0%EB%A9%B4-%EC%95%88%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0)
 - 임의로 사용자로부터 입력 받은 내용은 v-html에 '절대' 사용 금지
 - [practice](../practice/01_intro/03_v-html.html)
+
+### v-show
+
+- 조건부 렌더링
+- 엘리먼트는 항상 렌더링 되고 DOM에 남아있음
+- 단순히 엘리먼트에 display CSS 속성을 토글하는 것
+  - 예) display: none
+- [practice](../practice/01_intro/03_v-show.html)
+
+### v-if, v-else-if, v-else
+
+- 조건부 렌더링
+- 조건에 따라 블록을 렌더링
+- directive의 표현식이 true일 때만 렌더링
+- 엘리먼트 및 포함된 directive는 토글하는 동안 삭제되고 다시 작성됨
+- [practice](../practice/01_intro/03_v-if.html)
+
+
+
+> v-show VS v-if
+
+- **v-show** (Expensive initial load, cheap toggle)
+- **v-if**(Cheap initial load, expensive toggle)
+
